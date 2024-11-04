@@ -1,35 +1,45 @@
 <!DOCTYPE html>
 <html lang="es">
-   <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Mi Primer Sitio Web</title>
-   </head>
-   <body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reset.css" />
+
+    <title>Mi Primer Sitio Web</title>
+  </head>
+  <body>
+    <header>
+        <div id="titulos">
+            <h1 class="title">Mi pagina personal</h1>
+            <h2 class="title">Tomas aballay</h2>
+        </div>
+    </header>
     <main>
+        <article>
+            <h3 class="title">Full stack developer</h3>
+            <p>Me llamo Tomas, soy de cordoba, argentina y me gusta la programacion</p>
+        </article>
+        <hr>
+        <article>
+            <div id="cards-container">
 
-    </main>
-    <title>
-        <h1>Hola mundo</h1>
-    </title>
-    <hr>
-    <h2>Aca empieza mi nueva meta</h2>
+            <div class="cards">
+                <h4 class="title">HTML</h4>
+                <img src="./images.png" class="logo"/>
+            </div>
+            <div class="cards">
+                <h4 class="title">CSS</h4>
+                <img src="./descarga.png" class="logo"/>
+            </div>
+            <div class="cards">
+                <h4 class="title">JS</h4>
+                <img src="./images (2).png" class="logo">
+            </div>
+        </article>
+    </div>
+    <p> Algo mas</p>
+    </main>  
 
-    <p>Hoy empiezo en henry y voy a dar todo de mi</p>
-
-    <hr>
-
-    <img src="holamundo.png" alt="fotoholamundo">
-    <hr>
-    
-
-<ol>
-    <p>Pasos a seguir</p>
-    <li>Levantarme temprano</li>
-    <li>Desayunar</li>
-    <li>Practicar</li>
-</ol>
-
-    </main>
-   </body>
+  </body>
 </html>
